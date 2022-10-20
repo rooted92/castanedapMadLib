@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\crest\\.nuget\\packages\\": {}
+    "C:\\Users\\petec\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\pcastanedaMadLib\\pcastanedaMadLib.csproj",
+      "projectUniqueName": "C:\\Users\\petec\\OneDrive\\Documents\\combine22-23\\level1\\assignments\\pcastanedaMadLib\\pcastanedaMadLib.csproj",
       "projectName": "pcastanedaMadLib",
-      "projectPath": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\pcastanedaMadLib\\pcastanedaMadLib.csproj",
-      "packagesPath": "C:\\Users\\crest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\pcastanedaMadLib\\obj\\",
+      "projectPath": "C:\\Users\\petec\\OneDrive\\Documents\\combine22-23\\level1\\assignments\\pcastanedaMadLib\\pcastanedaMadLib.csproj",
+      "packagesPath": "C:\\Users\\petec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\petec\\OneDrive\\Documents\\combine22-23\\level1\\assignments\\pcastanedaMadLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\crest\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\petec\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
