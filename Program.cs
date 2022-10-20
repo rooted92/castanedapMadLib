@@ -12,32 +12,32 @@ while(run)
     //Instructions
     Console.WriteLine("Provide 2 adjectives..");
     Console.WriteLine("Enter first adjective:");
-    string adj1 = Console.ReadLine();
+    string adj1 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter second adjective:");
-    string adj2 = Console.ReadLine();
+    string adj2 = Console.ReadLine().ToLower();
     Console.WriteLine("Provide 5 nouns..");
     Console.WriteLine("Enter the name of a scary creature:");
-    string noun1 = Console.ReadLine();
+    string noun1 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter the name of a thing:");
-    string noun2 = Console.ReadLine();
+    string noun2 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter the name of a thing:");
-    string noun3 = Console.ReadLine();
+    string noun3 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter the name of a thing:");
-    string noun4 = Console.ReadLine();
+    string noun4 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter the name of a thing:");
-    string noun5 = Console.ReadLine();
+    string noun5 = Console.ReadLine().ToLower();
     Console.WriteLine("Please provide 4 verbs..");
     Console.WriteLine("Enter a verb ending with 'ing':");
-    string verb1 = Console.ReadLine();
+    string verb1 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter a verb ending with 'ing':");
-    string verb2 = Console.ReadLine();
+    string verb2 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter a verb used in the past tense:");
-    string verb3 = Console.ReadLine();
+    string verb3 = Console.ReadLine().ToLower();
     Console.WriteLine("Enter a verb ending with 'ing':");
-    string verb4 = Console.ReadLine();
+    string verb4 = Console.ReadLine().ToLower();
     Console.WriteLine("Please provide 1 adverb:");
     Console.WriteLine("Enter an adverb with the suffix -ly:");
-    string adverb = Console.ReadLine();
+    string adverb = Console.ReadLine().ToLower();
 
     Console.WriteLine("");
     Console.WriteLine("Here is your award winning story!!!");
@@ -61,7 +61,7 @@ void playAgain()
     while(replay)
     {
         Console.WriteLine("Would you like to play again? (yes/no)");
-        string userInput = Console.ReadLine();
+        string userInput = Console.ReadLine().ToLower();
         if(userInput == "yes" || userInput == "y")
         {
             replay = false;
